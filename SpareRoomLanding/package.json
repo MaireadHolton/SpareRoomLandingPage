@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
   "keywords": [],
   "author": "",
   "license": "ISC",
